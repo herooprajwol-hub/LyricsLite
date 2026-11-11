@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "lyricslite",
+  "version": "${version}",
+  "name": "LyricsLite",
+  "description": "Synced song lyrics on your HUD, with optional Spotify auto-sync. Works on Android launchers (Zalith, PojavLauncher): no Spotify login or desktop media APIs needed.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.lyricslite.LyricsLiteClient"] },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
